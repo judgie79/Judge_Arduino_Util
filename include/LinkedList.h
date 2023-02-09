@@ -46,6 +46,7 @@ class LinkedList  {
     LinkedList& operator = (const LinkedList<T>&);
 };
 
+
 template <class T>
 LinkedList<T>::LinkedList() {
     length = 0;
@@ -267,6 +268,7 @@ void LinkedList<T>::Clear()
     length = 0;
 
 }
+
 
 
 #endif
